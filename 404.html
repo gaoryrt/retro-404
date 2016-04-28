@@ -8,123 +8,121 @@
 <style type="text/css" media="screen">
 @font-face {
     font-family: 'FS500';
-    src: url('http://7xs4ih.com1.z0.glb.clouddn.com/Fixedsys500c.ttf')
+    src: url('http://7xs4ih.com1.z0.glb.clouddn.com/Fixedsys500c.ttf');
 }
 html {
-    height: 100%
+    height: 100%;
 }
 body {
+    font-family: 'Fixedsys', 'FS500', 'WenQuanYi Micro Hei Mono', 'ProggySquareTTSZ';
     height: 98%;
+    background-color: #0e7c7c;
     justify-content: center;
-    background-color: #0E7C7C;
-    font-family: 'Fixedsys', 'FS500', 'WenQuanYi Micro Hei Mono', 'ProggySquareTTSZ'
 }
 body, .win, .banner, .content {
     display: flex;
-    align-items: center
+    align-items: center;
 }
 .win {
     width: 100%;
-    justify-content: center
+    justify-content: center;
 }
 .error {
     width: 400px;
     height: 120px;
-    border: 2px outset #25323C;
-    background-color: #C1C1C1;
-    align-self: center
+    border: 2px outset #25323c;
+    background-color: #c1c1c1;
+    align-self: center;
 }
 .banner {
+    font-size: 14px;
+    line-height: 20px;
     height: 20px;
-    background: linear-gradient(left, #04056E, #157cda);
-    background: -webkit-linear-gradient(left, #04056E, #157cda);
-    background: -o-linear-gradient(left, #04056E, #157cda);
-    background: -moz-linear-gradient(left, #04056E, #157cda);
     margin: 2px;
     padding-left: .5em;
-    line-height: 20px;
-    color: #C1C1C1;
-    font-size: 14px;
-    justify-content: space-between
+    color: #c1c1c1;
+    background: linear-gradient(left, #04056e, #157cda);
+    background: -webkit-linear-gradient(left, #04056e, #157cda);
+    background: -o-linear-gradient(left, #04056e, #157cda);
+    background: -moz-linear-gradient(left, #04056e, #157cda);
+    justify-content: space-between;
 }
 .close {
-    background-color: #C1C1C1;
     margin: 2px;
-    color: #808080
+    color: #808080;
+    background-color: #c1c1c1;
 }
 .close, .redX {
-    height: 12px;
-    width: 12px;
-    border: 2px outset #F1F1F1;
-    text-align: center;
+    font-size: 16px;
     line-height: 16px;
-    font-size: 16px
+    width: 12px;
+    height: 12px;
+    text-align: center;
+    border: 2px outset #f1f1f1;
 }
 .content {
-    height: 60px;
+    font-size: 14px;
     line-height: 60px;
-    font-size: 14px
+    height: 60px;
 }
 .noPic {
-    height: 2.6em;
     width: 2.6em;
-    border: 2px inset #F1F1F1;
-    background-color: #fff;
+    height: 2.6em;
     margin: 0 1.5em;
+    border: 2px inset #f1f1f1;
+    background-color: #fff;
 }
 .redX {
     margin: 6px 8px;
-    color: red
+    color: red;
 }
 .submite {
-    height: 20px;
+    font-size: 14px;
     width: 75px;
-    border: 2px outset #000;
+    height: 20px;
     margin: 0 auto;
     text-align: center;
-    font-size: 14px
+    border: 2px outset #000;
+}
+.lighten {
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
 }
 a {
-    display: block;
     line-height: 16px;
-    border: 1px dotted #000;
+    display: block;
     margin: 0 2px 1px 2px;
     text-decoration: none;
     color: #000;
-    border-radius: 2px
-}
-.lighten {
-    border-left: 1px solid #fff;
-    border-top: 1px solid #fff
+    border: 1px dotted #000;
+    border-radius: 2px;
 }
 @media screen and (max-width:440px) {
     .content {
-        padding: 0 18px;
         line-height: 18px;
-        white-space: normal
+        padding: 0 18px;
+        white-space: normal;
     }
     .noPic {
-    margin: 0 1.5em 0 0;
-}
+        margin: 0 1.5em 0 0;
+    }
 }
 </style>
 <body>
 <div class="win">
     <div class="error">
-        <div class="wrapper">
-            <div class="banner">
-                404 - Page Not Found
-                <div class="close">✕</div>
+        <div class="banner">
+            404 - Page Not Found
+            <div class="close">✕</div>
+        </div>
+        <div class="content">
+            <div class="noPic">
+                <div class="redX">✕</div>
             </div>
-            <div class="content">
-                <div class="noPic">
-                    <div class="redX">✕</div>
-                </div>
-                Something happened.I know nothing.
-            </div>
-            <div class="submite">
-                <div class="lighten"><a href="/">Close</a></div>
-            </div>
+            Something happened.I know nothing.
+        </div>
+        <div class="submite">
+            <div class="lighten"><a href="/">Close</a></div>
         </div>
     </div>
 </div>
