@@ -1,6 +1,7 @@
 # retro-404
 retro 404 not found page with win95/win98 UI:  
 ![](screen-shots/win9x-404.png)
+  
 also with DOS UI:  
 ![](screen-shots/dos-404.png)
 # usage
