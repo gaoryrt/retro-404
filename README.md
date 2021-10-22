@@ -1,5 +1,5 @@
 # retro-404
-retro 404 not found page with win95/win98 UI:  
+retro 404 not found page with dos/windows3.0/windows95/windows98 UI:  
 ![](screen-shots/dos.jpg)
 ![](screen-shots/win30.jpg)
 ![](screen-shots/win95.jpg)
