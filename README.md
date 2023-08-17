@@ -1,4 +1,5 @@
-# retro-404
+# retro-404 By gaoryrt
+This version was added type anime.
 retro 404 not found page with dos/windows3.0/windows95/windows98 UI:  
 ![](screen-shots/dos.jpg)
 ![](screen-shots/win30.jpg)
